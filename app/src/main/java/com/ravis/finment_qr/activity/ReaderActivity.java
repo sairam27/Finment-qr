@@ -109,7 +109,7 @@ public class ReaderActivity extends AppCompatActivity {
     private void connectWebSocket() {
         URI uri;
         try {
-            uri = new URI("ws://192.168.225.32:9000/Finment/server.php");
+            uri = new URI("ws://52.66.108.224:9000/Finment/server.php");
         } catch (URISyntaxException e) {
             e.printStackTrace();
             return;
